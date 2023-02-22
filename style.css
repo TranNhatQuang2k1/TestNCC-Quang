@@ -77,8 +77,26 @@
     font-weight: 700;
     margin-bottom: 18px;
   }
-  .box-2 .content-text {
+  .box-2 .content-body-1 {
     font-size: 16px;
+  }
+  .box-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+  }
+  .box-3 .content-head {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  
+  .box-3 .content-body .content-text {
+    display: flex;
+  }
+  .box-3 .content-body .logo {
+    width: 128px;
+    height: 128px;
   }
   .footer {
     background-color: #fff;
