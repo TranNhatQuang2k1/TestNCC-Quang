@@ -28,6 +28,7 @@
     padding-left: 16px;
     justify-content: center;
     margin-top: 1px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
   .Item:hover {
     background-color: #5c5c5c;
@@ -43,11 +44,11 @@
     color: #fff;
   }
   .Item.ItemOne {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
   }
   .Item.ItemLast {
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-top: 1px solid rgba(255, 255, 255, 0.2); */
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
   }
 .content {
     flex: 1;
